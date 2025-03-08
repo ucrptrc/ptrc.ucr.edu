@@ -1,0 +1,84 @@
+/* leadership.css */
+#block-mainpagecontent {
+    padding-top: 0;
+}
+
+#block-curriculumvitae h2 {
+    display: none;
+}
+
+.google-scholar-link {
+    display: inline-block;
+    background: no-repeat url(https://scholar.google.com/intl/en/scholar/images/1x/scholar_logo_24dp.png) 0% 50%;
+    background-size: 149px;
+    width: 149px;
+    height: 23px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;  
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .google-scholar-link {
+        background-image: url(https://scholar.google.com/intl/en/scholar/images/2x/scholar_logo_24dp.png);
+    }
+}
+
+.ptrc img[title="Dr. Orozco vs. Huge Plant"] {
+    width: 90rem !important;
+}
+
+/*
+No need for this because of flex styles applied to ancestor (see .grid-x>.large-auto media queries in base.css)
+@media (max-width: 90rem) {
+    .ptrc figure,
+    .ptrc figure img[title="Dr. Orozco vs. Huge Plant"] {
+        margin: 0;
+        display: block;
+        width: 100% !important;
+    }
+}
+*/
+
+.degree,
+.author,
+.dates {
+    font-weight: bold;
+}
+
+img.author {
+    float: right;
+    margin-top: -15px;
+}
+
+address {
+    margin-left: 0;
+}
+
+.address li {
+    list-style-image: none;
+    margin: 0
+}
+
+.address:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.scientific {
+    font-style: italic;
+}
+
+#block-mainpagecontent a:hover,
+#block-curriculumvitae a:hover {
+    color: #881b41;
+}
+
+.primary-content-area li {
+    color: #234674
+}
+
+ul.accordion li a.accordion-title {
+    color: #2D6CC0
+}

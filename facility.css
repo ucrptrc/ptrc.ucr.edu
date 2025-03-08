@@ -1,0 +1,150 @@
+/* 1SmbmYQNIwNze9Mp1J7Pewd2tu9lIdeNE  */
+
+/* weird bug whereby the title of the Body block that brings in this custom css file shows up even though it's disabled */
+.basic-body div:first-child div:first-child {
+    display: none;
+}
+
+div.main-nav-bar li > a.is-active {
+    border: none !important;
+}
+
+div#block-mainpagecontent {
+    padding-top: 0;
+}
+
+#content-container .grid-container.teaser-callout .grid-x div.cell {
+    padding: 0;
+}
+
+.full.teaser-callout {
+    background-position: right 51% !important;
+    background-repeat: no-repeat !important;
+    background-size: 67% !important;
+    height: 27.688rem;
+    max-height: 27.688rem !important;
+}
+
+.full.teaser-callout .grid-x.align-stretch {
+    height: 100%;
+}
+
+@media print, screen and (min-width: 55.9375em) {
+    .grid-x>.medium-5 {
+        width: 33.35% !important;
+    }
+}
+
+div.tabs-panel h5 {
+    display: none;
+}
+
+div:last-child > div.tabs-panel h5 {
+    display: block;
+}
+
+@media (max-width: 75rem) {
+    .cell ul.tabs.ucr-tabs {
+        display: none;
+    }
+    div.tabs-panel,
+    div.tabs-panel h5 {
+        display: block;
+    }
+}
+
+.teaser-callout .ts-text {
+    background: #f1ab00 !important;
+    height: 100%;
+    min-width: 24rem;
+    padding-top: 77px;
+}
+
+.teaser-callout .ts-text h4 {
+    color: #2D6CC0 !important;
+    font-size: 2.4em;
+    font-weight: 700 !important;
+    line-height: 1;
+    margin-bottom: 29px;
+}
+
+div[data-layout-content-preview-placeholder-label="\"Facility Tabbed Overview\" block"] .cell {
+    position: relative;
+}
+
+.cell ul.tabs.ucr-tabs {
+    background: transparent;
+    position: relative;
+    left: -.95rem;
+}
+
+.cell ul.tabs.ucr-tabs li.tabs-title {
+    border: none;
+    margin-right: 2px;
+}
+
+.cell ul.tabs.ucr-tabs li.tabs-title.is-active,
+.cell ul.tabs.ucr-tabs li.tabs-title,
+.cell ul.tabs.ucr-tabs li.tabs-title:hover {
+    background: #2D6CC0;
+    border: none;
+    width: 14.2rem;
+    box-sizing: content-box;
+    text-align: center;
+}
+
+.cell ul.tabs.ucr-tabs li.tabs-title.is-active a {
+    color: #2D6CC0;
+}
+
+.cell ul.tabs.ucr-tabs li.tabs-title a {
+    color: #FFF;
+}
+
+.cell ul.tabs.ucr-tabs li.tabs-title.is-active {
+    background: #FFF;
+}
+
+.cell ul.tabs.ucr-tabs li.tabs-title.is-active:hover a,
+.cell ul.tabs.ucr-tabs li.tabs-title:hover a {
+    border-bottom: none;
+}
+
+.cell ul.tabs.ucr-tabs li.tabs-title:hover a,
+.cell ul.tabs.ucr-tabs li.tabs-title.is-active:hover a {
+    color: #F1AB00;
+}
+
+.primary-content-area li {
+    color: #234674;
+}
+
+.cell div.tabs-content {
+    border: none;
+}
+
+.cell div.tabs-content div.tabs-panel {
+    padding-top: 43px;
+}
+
+ .primary-content-area figure.embedded-entity {
+ width: 33% !important;
+}
+
+div[alt="Warm BL2 Certified Greenhouse"] {
+    float:left;
+    margin-right: 1.1em;
+}
+
+div[alt="Warm BL2 Certified Greenhouse"],
+div[alt="Benchtop in Warm BL2 Certified Greenhouse"] {
+    height: 261px;
+}
+
+h6 {
+    clear: left;
+}
+
+div[alt="Benchtop in Warm BL2 Certified Greenhouse"] + h6 {
+    margin-top: 0.7rem
+}

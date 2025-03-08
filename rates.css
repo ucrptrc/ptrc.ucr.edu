@@ -1,0 +1,18 @@
+/* 
+rates.css
+14naztAbPXBF1Iy9KDz2elzU7EFrYFKG8
+*/
+.ptrc.space,
+.ptrc.equipment {
+    width: 66.35%;
+}
+
+.space thead,
+.equipment thead {
+    display: none;
+}
+
+.space tbody th,
+.equipment tbody th {
+    width: 45%;
+}

@@ -1,0 +1,183 @@
+/* 1g9piPpWMbTnmoPD_6E8b2DMerRWEGIaZ  */
+
+div[data-layout-content-preview-placeholder-label='"Body" field'] {
+    display: none;
+}
+
+.ptrc th {
+    width: 10%;
+}
+
+.ptrc th.selection-system {
+    text-align: center;
+}
+
+.ptrc td[headers='species'] {
+    font-style: italic;
+}
+
+.ptrc tr td ~ td[headers='selection-system'] {
+    text-align: center;
+}
+
+.teaser-callout .grid-x {
+    display: block;
+}
+
+.auto.cell.align-self-middle.show-for-medium {
+    display: none;
+}
+
+.auto.cell.align-self-middle.show-for-medium + .medium-5.cell {
+    float: right;
+    height: 100%;
+}
+
+div.main-nav-bar li > a.is-active {
+    border: none !important;
+}
+
+div#block-mainpagecontent {
+    padding-top: 0;
+}
+
+.full.teaser-callout {
+    background-position: -48% 48% !important;
+    background-repeat: no-repeat !important;
+    background-size: 85% !important;
+    display: block;
+    height: 27.688rem;
+    max-height: 27.688rem !important;
+}
+
+.full.teaser-callout .grid-x.align-stretch {
+    height: 100%;
+}
+
+@media print, screen and (min-width: 55.9375em) {
+    .grid-x>.medium-5 {
+        width: 33.35% !important;
+    }
+}
+
+div.tabs-panel h5 {
+    display: none;
+}
+
+/* don't use tabs when on smaller screens, just render everything as a simple page */
+@media (max-width: 90rem) {
+    .cell ul.tabs.ucr-tabs {
+        display: none;
+    }
+    div.tabs-panel,
+    div.tabs-panel h5 {
+        display: block;
+    }
+    /* hide redundant contact links when on smaller screens */
+    .contact {
+        display: none;
+    }
+
+    .cell div.tabs-content {
+        margin-top: 0;
+    }
+}
+
+.teaser-callout .ts-text {
+    background: #f1ab00 !important;
+    height: 100%;
+    min-width: 20rem;
+    padding-top: 77px;
+}
+
+.teaser-callout .ts-text h4 {
+    color: #2D6CC0 !important;
+    font-size: 2.4em;
+    font-weight: 700 !important;
+    line-height: 1;
+    margin-bottom: 29px;
+}
+
+div[data-layout-content-preview-placeholder-label="\"Services Tabbed Overview\" block"] .cell, /* this seemed to have been removed CMS, caused regression */
+.ucr-custom-block .cell {
+    position: relative;
+}
+
+.cell ul.tabs.ucr-tabs {
+    background: transparent;
+    left: -0.89rem;
+    position: absolute;
+    z-index: 1000;
+    top: 0rem;
+}
+
+.cell ul.tabs.ucr-tabs li.tabs-title {
+    border: none;
+    margin-right: 2px;
+}
+
+.cell ul.tabs.ucr-tabs li.tabs-title.is-active,
+.cell ul.tabs.ucr-tabs li.tabs-title,
+.cell ul.tabs.ucr-tabs li.tabs-title:hover {
+    background: #2D6CC0;
+    border: none;
+    width: 14rem;
+    box-sizing: content-box;
+    text-align: center;
+}
+
+.cell ul.tabs.ucr-tabs li.tabs-title.is-active a {
+    color: #2D6CC0;
+}
+
+.cell ul.tabs.ucr-tabs li.tabs-title a {
+    color: #FFF;
+}
+
+.cell ul.tabs.ucr-tabs li.tabs-title.is-active {
+    background: #FFF;
+}
+
+.cell ul.tabs.ucr-tabs li.tabs-title.is-active:hover a,
+.cell ul.tabs.ucr-tabs li.tabs-title:hover a {
+    border-bottom: none;
+}
+
+.cell ul.tabs.ucr-tabs li.tabs-title:hover a,
+.cell ul.tabs.ucr-tabs li.tabs-title.is-active:hover a {
+    color: #F1AB00;
+}
+
+.primary-content-area li {
+    color: #234674;
+}
+
+.cell div.tabs-content {
+    border: none;
+}
+
+.cell div.tabs-content {
+    margin-top: 55px;
+}
+
+.cell div.tabs-content div.tabs-panel {
+    padding-top: 43px;
+}
+
+div[alt="Warm BL2 Certified Greenhouse"] {
+    float:left;
+    margin-right: 1.1em;
+}
+
+div[alt="Warm BL2 Certified Greenhouse"],
+div[alt="Benchtop in Warm BL2 Certified Greenhouse"] {
+    height: 261px;
+}
+
+h6 {
+    clear: left;
+}
+
+div[alt="Benchtop in Warm BL2 Certified Greenhouse"] + h6 {
+    margin-top: 0.7rem
+}

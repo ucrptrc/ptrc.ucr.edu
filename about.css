@@ -1,0 +1,39 @@
+/* about.css */
+
+.ptrc figure {
+    display: inline-block;
+    width: 51%;
+    margin-left: .4em;
+}
+
+.ptrc figure img[title="The PTRC Team"] {
+    float: right;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.ptrc figure figcaption {
+    float: right;
+    margin: 0;
+    width: 100%;
+}
+
+@media (max-width: 45rem) {
+    .ptrc figure,
+    .ptrc figure img[title="The PTRC Team"] {
+        float: none;
+        margin: 0;
+        display: block;
+        width: 100%;
+    }
+}
+
+
+/* clearfix */
+
+.ptrc figure::after {
+    content: ".";
+    visibility: hidden;
+    clear: both;
+    display: table;
+}
